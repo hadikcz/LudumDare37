@@ -66,7 +66,7 @@ Player.prototype.handleControlls = function(){
     if(this.game.input.keyboard.isDown(Phaser.Keyboard.D))
         this.body.velocity.x = 150;
     
-    if(this.game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR)){
+    if(this.game.input.keyboard.isDown(Phaser.Keyboard.E)){
         if(this.weaponGrenades > 0 && this.isGrenadeReady){
             this.throwGrenade();
         }
